@@ -47,4 +47,4 @@ client.on('message', message => {
 });
 
 // Login into the Discord API
-client.login(process.env.AUTH_TOKEN);
+client.login(process.env.BOT_TOKEN);
